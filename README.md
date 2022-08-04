@@ -4,16 +4,6 @@ In this portfolio project, you'll build a minimal landing page for an coffee bea
 
 This mockup has 4 main parts: the navigation, banner, main section and the footer.
 
-## Mockups
-
-
-[Link to Figma](https://www.figma.com/file/p12TxtRoy5rQth8S1WuUcY/Mimo-Dev-%C2%B7-Oct-'21-Cohort?node-id=91%3A104)
-
-
-
-!["alt text"](assets/bean_machine_desktop.jpg)
-
-
 ## Getting Started Notes
 
 - You're not given any HTML markup inside of the `<body></body>` tags, first start by outlining the main elements. Once you have done that, you can start implementing the styles. You'll be expected to edit `style.css` to implement the styles. 
