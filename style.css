@@ -1,0 +1,287 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+  width: 90%;
+}
+
+.logo {
+  max-width: 100%;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 220px;
+}
+
+.nav-item {
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 600;
+  text-decoration: none;
+  color: #1d1c1c;
+}
+
+.nav-btn {
+  height: 30px;
+  width: 70px;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-weight: 500;
+  color: #FFFFFF;
+  background-color: #1d1c1c;
+  border-radius: 40px;
+}
+
+#banner {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  margin-bottom: 20px;
+  width: 90%;
+}
+
+.titles {
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.h1_div {
+  display: flex;
+  width: 300px;
+}
+
+h1 {
+  font-size: 80px;
+  line-height: 80px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 800;
+  margin: 0;
+}
+
+.h2_div {
+  display: flex;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 60px;
+  font-family: 'Darker Grotesque', sans-serif;
+  font-weight: 600;
+  margin: 0;
+}
+
+.search_btn {
+  display: flex;
+  flex-wrap: wrap;
+}
+  
+.search {
+  width: 330px;
+  height: 64px;
+  border: none;
+  border-radius: 16px;
+  font-family: Open Sans;
+  font-size: 16px;
+  background-color: #F6F2EF;
+  color: #917D6E;
+}
+
+.btn {
+  background-color: #FFFFFF;
+  border: none;
+}
+
+.coffee-img {
+  width: 450px;
+  height: 400px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.about {
+  padding: 20px 0 40px 0;
+  margin-bottom: 30px;
+  border-top: 2px solid #1D1C1C;
+  border-bottom: 2px solid #1D1C1C;
+}
+
+.p-info {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  color: #1D1C1C;
+}
+
+.p-link {
+  color: #FF5678;
+  font-weight: 700;
+}
+
+.offer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 305px;
+  width: 230px;
+  margin: 10px;
+  background-color: #F6F2EF;
+  border-radius: 16px;
+}
+
+.items-img {
+  display: flex;
+  height: 175px;
+  width: 130px;
+  border-radius: 16px;
+}
+
+.items-p {
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  color: #1D1C1C;
+  margin: 0;
+}
+
+.items-btn {
+  height: 48px;
+  width: 130px;
+  background-color: #FF5678;
+  border: none;
+  border-radius: 8px;
+  color: #FFFFFF;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+#footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  background-color: #1D1C1C;
+  width:100%;
+}
+
+.p {
+  font-family: Open Sans;
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+
+
+.sel-container {
+  margin: 0 auto;
+  width: 100%; 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#sel-nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 80px;
+  width: 90%;
+}
+
+#sel-sort {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px 0 20px 0;
+}
+
+.sel-drop {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 190px;
+}
+
+label {
+  font-family: Open sans;
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+select {
+  width: 120px;
+  height: 35px;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000000;
+  background-color: #F6F2EF;
+  border-radius: 16px;
+  padding-left: 10px;
+}
+
+#sel-offer {
+  width: 90%;
+}
+
+.offer-grid {
+  display: grid;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fill, 230px);
+  gap: 80px 90px;
+}
+
+#sel-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 140px;
+  background-color: #1D1C1C;
+  width:100%;
+  margin-top: 20px;
+}
